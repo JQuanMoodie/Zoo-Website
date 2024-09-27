@@ -26,10 +26,15 @@
 		margin-top: 40px;
 		margin-left: 15px;
 	}
+	.img-container {
+		position: relative;
+		margin-top: 12%; 
+		margin-left: 77%; 
+		width: 328px;
+		height: 370px; 
+		overflow: hidden;
+	}
 	img{
-		position: absolute;
-		top: 200px; 
-		left: 1100px; 
 		width: 400px; 
 		height: auto;
 	}
@@ -39,7 +44,9 @@
 	<div class="back">
 		<a href="index.html">Exit</a>
 	</div>
-	<img src="LinkPointer.png" usemap="#image-map">
+	<div class="img-container">
+		<img src="LinkPointer.png" usemap="#image-map">
+	</div>
 	<map name="image-map">	
 		<area shape="rect" coords="85, 25, 325, 75" href="TigerPage.html">
 		<area shape="rect" coords="30, 115, 300, 175" href="HippoPage.html">
